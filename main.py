@@ -95,25 +95,25 @@ SAMPLE_RATE = 16000
 CHUNK_SIZE = 4000
 
 # ========== ИНИЦИАЛИЗАЦИЯ ==========
-print("Загружаем модель Vosk...")
-try:
-    model = Model(MODEL_PATH)
-except Exception as e:
-    print(f"Ошибка загрузки модели: {e}")
-    print("Скачайте модель с https://alphacephei.com/vosk/models")
-    print("и распакуйте в папку с скриптом")
-    sys.exit(1)
+# print("Загружаем модель Vosk...")
+# try:
+#     model = Model(MODEL_PATH)
+# except Exception as e:
+#     print(f"Ошибка загрузки модели: {e}")
+#     print("Скачайте модель с https://alphacephei.com/vosk/models")
+#     print("и распакуйте в папку с скриптом")
+#     sys.exit(1)
 
-print("Модель загружена успешно!")
+# print("Модель загружена успешно!")
 
-# Создаем распознаватель
-recognizer = KaldiRecognizer(model, SAMPLE_RATE)
-recognizer.SetWords(True)
+# # Создаем распознаватель
+# recognizer = KaldiRecognizer(model, SAMPLE_RATE)
+# recognizer.SetWords(True)
 
-# Очереди для обмена данными
-audio_queue = queue.Queue()
-result_queue = queue.Queue()
-is_recording = True
+# # Очереди для обмена данными
+# audio_queue = queue.Queue()
+# result_queue = queue.Queue()
+# is_recording = True
 
 # ========== ФУНКЦИЯ ЗАПИСИ АУДИО ==========
 def record_audio():
@@ -246,5 +246,5 @@ def main():
     
     print("Работа завершена!")
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

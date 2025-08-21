@@ -6,7 +6,7 @@
 ### **Пример озвучки**
 
 <audio controls>
-  <source src="glados.wav" type="audio/mpeg">
+  <source src="./glados.wav" type="audio/wav">
   Ваш браузер не поддерживает аудио элемент.
 </audio>
 

@@ -6,7 +6,7 @@
 ### **Пример озвучки**
 
 <audio controls>
-  <source src="./glados.wav" type="audio/wav">
+  <source src="GLaDOS_sound_assistant/glados.wav" type="audio/wav">
   
 </audio>
 

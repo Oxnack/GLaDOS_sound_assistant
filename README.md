@@ -5,10 +5,6 @@
 
 ### **Пример озвучки**
 
-<audio controls>
-  <source src="GLaDOS_sound_assistant/glados.wav" type="audio/wav">
-  
-</audio>
 
 ## 📋 Предварительные требования
 
